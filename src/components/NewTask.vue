@@ -20,7 +20,7 @@ export default {
     },
     methods: {
         add() {
-            this.$emit('taskAdded', { name: this.name })
+            this.$emit('task-added', { name: this.name })
             this.name = ''
         }
     }
